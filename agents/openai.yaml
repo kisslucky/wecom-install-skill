@@ -1,0 +1,6 @@
+interface:
+  display_name: "WeCom Install"
+  short_description: "Set up and troubleshoot the OpenClaw WeCom plugin"
+  default_prompt: "Use $wecom-install to guide a full OpenClaw WeCom setup or fix an existing WeCom channel."
+policy:
+  allow_implicit_invocation: true
