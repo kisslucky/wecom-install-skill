@@ -7,11 +7,20 @@ metadata:
     emoji: "🧩"
     category: "integration"
     tags: ["wecom", "openclaw", "plugin", "install", "troubleshooting"]
+  hermes:
+    tags: ["integration", "wecom", "openclaw", "plugin", "operations"]
+    related_skills: ["voice-message"]
+    requires_toolsets: [terminal]
 ---
 
 # WeCom Install
 
 Set up the OpenClaw WeCom plugin from zero to working message delivery.
+
+## Runtime Notes
+
+- OpenClaw is the native target environment for this skill.
+- Hermes can load this skill as a terminal-guided operations playbook for managing an OpenClaw deployment. It helps Hermes run and verify OpenClaw CLI commands, but it does not by itself make Hermes a native WeCom adapter.
 
 ## Core Rules
 
