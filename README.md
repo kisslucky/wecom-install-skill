@@ -4,6 +4,14 @@
 
 这个 Skill 用于把 `@wecom/wecom-openclaw-plugin` 从零安装到可用状态，并覆盖 Bot 模式、Agent 模式、配置校验、回调顺序和常见故障诊断。
 
+## Hermes 适配
+
+适用于 Hermes，但定位是“运维/安装类 Skill”而不是 Hermes 自身的消息通道插件。
+
+- 适配方式：Hermes 读取 `SKILL.md` 后，可以直接执行仓库里的 OpenClaw CLI 命令和检查流程
+- 适配前提：Hermes 会话需要可用的终端能力，并且目标机器上已经安装 OpenClaw
+- 能力边界：它帮助 Hermes 安装和排查 OpenClaw 的企微插件，不会单独把 Hermes 变成一个原生企微机器人
+
 ## 适用场景
 
 - 需要首次接入企业微信通道
